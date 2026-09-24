@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envie sua Receita de Vó</title>
+</head>
+<body>
+
+    <header>
+        <h1>Receitas de Vó</h1>
+        <p>Compartilhe os segredos culinários da sua família!</p>
+        <hr>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial (Receitas)</a></li>
+                <li><a href="enviar-receita.html">Enviar uma Receita</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulário para Envio de Receitas</h2>
+            <p>Preencha os campos abaixo para cadastrar a receita da sua vovó em nosso site:</p>
+
+            <form action="#" method="POST">
+            
+                <fieldset>
+                    <legend><strong>Dados do Cozinheiro(a)</strong></legend>
+                    <p>
+                        <label for="nome">Seu Nome:</label><br>
+                        <input type="text" id="nome" name="nome" placeholder="Ex: Maria da Silva" required>
+                    </p>
+                    <p>
+                        <label for="email">Seu E-mail:</label><br>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </p>
+                    <p>
+                        <label for="nome-vo">Nome da Vovó (Dona da Receita):</label><br>
+                        <input type="text" id="nome-vo" name="nome_vo" placeholder="Ex: Vó Zuleica">
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend><strong>Detalhes da Receita</strong></legend>
+                    <p>
+                        <label for="titulo-receita">Nome da Receita:</label><br>
+                        <input type="text" id="titulo-receita" name="titulo_receita" placeholder="Ex: Biscoito de Polvilho Assado" required>
+                    </p>
+                    <p>
+                        <label for="categoria">Categoria:</label><br>
+                        <select id="categoria" name="categoria">
+                            <option value="doce">Bolos e Doces</option>
+                            <option value="salgado">Pães e Salgados</option>
+                            <option value="almoco">Almoço de Domingo</option>
+                            <option value="sopa">Sopas e Caldos</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="tempo">Tempo de Preparo:</label><br>
+                        <input type="text" id="tempo" name="tempo" placeholder="Ex: 45 minutos">
+                    </p>
+                    <p>
+                        <label for="rendimento">Rendimento:</label><br>
+                        <input type="text" id="rendimento" name="rendimento" placeholder="Ex: 8 porções">
+                    </p>
+                    <p>
+                        <label for="ingredientes">Ingredientes (coloque um por linha):</label><br>
+                        <textarea id="ingredientes" name="ingredientes" rows="6" cols="40" placeholder="Ex:&#10;3 xícaras de farinha&#10;1 xícara de açúcar&#10;2 ovos" required></textarea>
+                    </p>
+                    <p>
+                        <label for="modo-preparo">Modo de Preparo (passo a passo):</label><br>
+                        <textarea id="modo-preparo" name="modo_preparo" rows="8" cols="40" placeholder="Ex:&#10;1. Misture os ingredientes secos...&#10;2. Adicione os ovos...&#10;3. Leve ao forno a 180°C..." required></textarea>
+                    </p>
+                    <p>
+                        <label for="dica">Segredo / Dica da Vovó:</label><br>
+                        <textarea id="dica" name="dica_vo" rows="3" cols="40" placeholder="Ex: Coloque uma pitada de canela na massa para dar um aroma especial."></textarea>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Enviar Receita</button>
+                <button type="reset">Limpar Campos</button>
+
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Receitas de Vó - O sabor da tradição em sua mesa.</p>
+    </footer>
+
+</body>
+</html>
