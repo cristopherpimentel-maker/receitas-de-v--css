@@ -1,9 +1,11 @@
+/* Seletor Universal */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
 }
 
+/* Seletor da TAG */
 body {
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 18px;
@@ -112,9 +114,8 @@ input, select, textarea, button {
     margin-top: 5px;
 }
 
-#foto_fuba,
-#foto_queijo,
-#foto_biscoito {
+/* Seletor de Classe */
+.foto {
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -122,7 +123,7 @@ input, select, textarea, button {
     margin-bottom: 12px;
 }
 
-
+/* Seletor de ID */
 #foto_fuba {
     background-image: url(bolofuba.jpg);
 }
