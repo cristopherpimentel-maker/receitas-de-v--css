@@ -112,33 +112,25 @@ input, select, textarea, button {
     margin-top: 5px;
 }
 
-/* ==========================================================================
-   RASCUNHO COM REPETIÇÃO PROPOSITAL (COMMIT 5)
-   ========================================================================== */
-
-#foto_fuba {
-    background-image: url(bolofuba.jpg);
+#foto_fuba,
+#foto_queijo,
+#foto_biscoito {
     background-size: cover;
     background-position: center;
     height: 400px;
     border-radius: 4px;
     margin-bottom: 12px;
+}
+
+
+#foto_fuba {
+    background-image: url(bolofuba.jpg);
 }
 
 #foto_queijo {
     background-image: url(paoqueijo.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    border-radius: 4px;
-    margin-bottom: 12px;
 }
 
 #foto_biscoito {
     background-image: url(biscoitopolvilho.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    border-radius: 4px;
-    margin-bottom: 12px;
 }
