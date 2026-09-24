@@ -5,20 +5,16 @@
 }
 
 body {
-
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 18px;
     line-height: 1.6;
-    
-    
     background-color: #fdf8f2;
     color: #4a3b32;            
-    
-    
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
+
 header {
     background-color: #fffaf4;
     border-bottom: 3px double #d4a373;
@@ -61,7 +57,6 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
-    color: #a7c957; 
     color: #8b5e34; 
     margin-bottom: 15px;
     border-bottom: 1px solid #e6ccb2;
@@ -117,24 +112,33 @@ input, select, textarea, button {
     margin-top: 5px;
 }
 
-.foto {
-    background-image: #ddd;
+/* ==========================================================================
+   RASCUNHO COM REPETIÇÃO PROPOSITAL (COMMIT 5)
+   ========================================================================== */
+
+#foto_fuba {
+    background-image: url(bolofuba.jpg);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 400px;
     border-radius: 4px;
     margin-bottom: 12px;
 }
 
-
-#foto_fuba {
-    background-image: url(bolofuba.jpg);
-}
-
 #foto_queijo {
     background-image: url(paoqueijo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 4px;
+    margin-bottom: 12px;
 }
 
 #foto_biscoito {
     background-image: url(biscoitopolvilho.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 4px;
+    margin-bottom: 12px;
 }
