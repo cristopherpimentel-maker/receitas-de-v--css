@@ -116,3 +116,25 @@ input, select, textarea, button {
     color: #4a3b32;
     margin-top: 5px;
 }
+
+.foto {
+    background-image: #ddd;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+
+#foto_fuba {
+    background-image: url(bolofuba.jpg);
+}
+
+#foto_queijo {
+    background-image: url(paoqueijo.jpg);
+}
+
+#foto_biscoito {
+    background-image: url(biscoitopolvilho.jpg);
+}
